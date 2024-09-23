@@ -56,7 +56,7 @@ const girraj = setInterval(() => {
     timer--;
     timerDiv.innerHTML = timer;
   }
-}, 1000);
+}, 10000);
 
 optionsPara.forEach((p,index)=>{
 p.addEventListener("click",()=>{

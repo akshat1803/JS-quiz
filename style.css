@@ -13,8 +13,8 @@
 }
 #quiz{
     text-align: center;
-    width: 70%;
-    padding: 1rem; 
+    width: 70%; 
+    padding: 1rem;   
     border-radius: 2rem;
     background-color: #fff;
     position: relative;
@@ -22,7 +22,7 @@
 
 #options{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 #options p {
     width: 47%;

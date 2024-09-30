@@ -50,13 +50,13 @@ const girraj = setInterval(() => {
     }
     display()
     printQ();
-    timer = 5;
+    timer=5;
     timerDiv.innerHTML = timer;
   } else {
     timer--;
     timerDiv.innerHTML = timer;
   }
-}, 10000);
+}, 1000);
 
 optionsPara.forEach((p,index)=>{
 p.addEventListener("click",()=>{
